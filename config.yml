@@ -1,0 +1,5 @@
+handlers:
+- regexp: (.*\.)?redhat\.com
+  handler: mitm
+- regexp: (.*\.)?google\.com
+  handler: raw
